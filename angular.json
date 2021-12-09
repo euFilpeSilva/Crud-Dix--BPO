@@ -1,9 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "085aa29f-e744-46b5-80f4-03063749dee7"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "crud-dix": {
+    "crud": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/crud-dix",
+            "outputPath": "dist/crud",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,9 +30,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -68,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "crud-dix:build:production"
+              "browserTarget": "crud:build:production"
             },
             "development": {
-              "browserTarget": "crud-dix:build:development"
+              "browserTarget": "crud:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "crud-dix:build"
+            "browserTarget": "crud:build"
           }
         },
         "test": {
@@ -102,5 +109,5 @@
       }
     }
   },
-  "defaultProject": "crud-dix"
+  "defaultProject": "crud"
 }
