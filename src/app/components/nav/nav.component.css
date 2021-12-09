@@ -1,0 +1,12 @@
+.corpo:hover {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  transition: 300ms;
+  box-shadow: 1px 1px 6px grey;
+}
+.corpo {
+  background-color: white;
+  border-radius: 20px;
+  transition: 300ms;
+}
+
