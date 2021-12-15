@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavComponent } from './components/nav/nav.component';
-import { CalendarioComponent } from './components/calendario/calendario.component';
+import { banersComponent } from './components/baners/baners.component';
+import { NavlogComponent } from './components-login/navlog/navlog.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CalendarioComponent } from './components/calendario/calendario.componen
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    CalendarioComponent
+    banersComponent,
+    NavlogComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

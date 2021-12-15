@@ -5,12 +5,22 @@
 
 button {
   border: 0;
-  
 }
 
+.bot {
+  margin-left: 30px;
+}
 
+.botao-de-logoff {
+  background-color: rgb(34, 29, 28);
+  color: beige;
+}
 
 .d-flex {
   margin-right: 2%;
+}
+
+.pesquisa {
+  margin-left: 60px;
   
 }

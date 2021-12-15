@@ -1,6 +1,12 @@
 footer {
+  height: 70px;
   bottom:0;
   left:0;
   background-color: black;
   color: white;
+}
+footer p {
+  display: flex;
+ justify-content: center;
+ align-items: center;
 }

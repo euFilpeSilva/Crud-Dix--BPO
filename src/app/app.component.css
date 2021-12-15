@@ -1,18 +1,5 @@
 
-.componentes-nav {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-auto-rows: 25%;
-  margin-left: 10px;
-  
-}
-body {
-  background-color: white;
-}
 
-app-nav{
-margin: 10px 10px 0 0;
-}
   
 
 

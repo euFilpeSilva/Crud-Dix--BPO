@@ -10,10 +10,10 @@
           <button type="button" class="btn btn-outline-light">Home</button>
         </li>
         <li class=" bot nav-item">
-          <button type="button" class="btn btn-outline-light">Agenda de leilões</button>
+          <button type="button" class="btn btn-outline-light">Agenda</button>
         </li>
         <li class=" bot nav-item">
-          <button type="button" class="btn btn-outline-light">Quero vender</button>
+          <button type="button" class="btn btn-outline-light">vender</button>
         </li>
         <li class="nav-item dropdown">
          
@@ -26,9 +26,12 @@
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input class=" pesquisa form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit" >Search</button>
+        <button class=" botao-de-logoff btn btn-outline-success" type="submit" [routerLink]="['/login']">Logoff</button>
       </form>
     </div>
   </div>
 </nav>
+
+
