@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta bic azul",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "caneta bic amarela",
+      "price": 6
+    },
+    {
+      "id": 3,
+      "name": "caneta bic verde",
+      "price": 8.89
+    },
+    {
+      "id": 4
+    },
+    {
+      "name": "noteboock",
+      "price": "2.000",
+      "id": 5
+    },
+    {
+      "name": "Iphone",
+      "price": "3.000",
+      "id": 6
+    }
+  ]
+}
