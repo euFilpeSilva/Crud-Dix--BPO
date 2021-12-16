@@ -21,7 +21,7 @@ const routes: Routes = [
    component: NavlogComponent
  },
   {
-   path: "home",
+   path: "",
    component: HomeComponent
  }
 ];
