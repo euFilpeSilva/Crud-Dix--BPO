@@ -1,5 +1,7 @@
 # Crud
 
+## Projeto parado por tempo indeterminado.
+
  Projeto elaborado para fins didaticos, afim de exercitar minhas habilidades com as tecnologias abaixo:
  * Angular
  * HTML/CSS
